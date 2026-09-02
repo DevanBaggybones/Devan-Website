@@ -1,0 +1,17 @@
+O que cada um faz, isoladamente
+max-width: 1050px sozinho significa: "aplique este CSS quando a tela tiver 1050px de largura OU MENOS". Não tem limite inferior — cobre 1050px, 500px, 300px, 1px, qualquer coisa até ali.
+
+min-width: 769px sozinho significa o oposto: "aplique quando a tela tiver 769px de largura OU MAIS". Não tem limite superior.
+
+O que acontece quando você junta os dois com and
+
+Quando você escreve:
+@media (min-width: 769px) and (max-width: 1050px)
+
+Isso cria duas "paredes": uma embaixo (769px) e uma em cima (1050px). O CSS só se aplica dentro desse corredor — nunca antes de 769px, nunca depois de 1050px.
+
+O que importa pra media query é a largura da tela. 
+Media queries baseadas em width olham só a largura da tela, ignorando a altura.
+
+Definir largura (min) x largura (max)
+E ir ajustando

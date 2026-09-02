@@ -1,0 +1,8 @@
+Pixels CSS
+
+Valores: 
+360, 375, 390, 414, 430 para celular
+768, 810 para tablet retrato
+1024, 1180 para tablet paisagem/notebook pequeno;
+1280, 1366, 1440 para notebook comum
+1536, 1600, 1920 para monitor grande

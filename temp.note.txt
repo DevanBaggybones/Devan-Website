@@ -1,0 +1,96 @@
+@media (max-width:768px){
+
+  .estrela{
+    font-size:14px;
+    white-space:nowrap;
+    transform:scale(0.75);
+    transform-origin:center;
+    width:133%;
+    margin-left:-16.5%;
+  }
+
+    .titulo-decorado{
+        display:none;
+    }
+
+.titulo-porcelana{
+    text-align:center;
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+}
+
+  .titulo-espacado{
+      display:inline-block;
+      font-size:24px;
+      letter-spacing:2px;
+      text-align:center;
+  }
+
+  .gallery-hero{
+    min-height:auto;
+    padding:40px 0;
+  }
+
+  .carousel{
+    gap:10px;
+  }
+
+  .porcelana-display img{
+    width:100%;
+    max-width:85vw;
+  }
+
+  .carousel-btn{
+    width:40px;
+    height:40px;
+    font-size:22px;
+  }
+
+.tarja h2{
+    font-size:18px;
+    white-space:normal;
+    width:100%;
+    text-align:center;
+}
+
+  .porcelana-name{
+    font-size:26px;
+    letter-spacing:2px;
+  }
+
+  .carousel-sub{
+    font-size:14px;
+    padding:0 12px;
+  }
+
+  .gallery-hint{
+    font-size:12px;
+    margin-bottom:40px;
+    text-align:center;
+  }
+
+  .lightbox-close{
+    right:15px;
+    top:15px;
+    font-size:24px;
+  }
+
+  body{
+    background-attachment:scroll;
+  }
+
+.conteudo{
+    width:100%;
+    max-width:none;
+    padding:20px;
+    text-align:center;
+}
+
+.tarja{
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+}
+
+}

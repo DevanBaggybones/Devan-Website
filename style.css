@@ -1,0 +1,1087 @@
+/* Screen resolution pixels 1181 -> 1679 (my laptop is 1366) */
+body{ 
+color:white; 
+font-family: Georgia; 
+overflow-x: hidden;
+}
+
+h2{
+  display: block;
+  font-size: clamp(20px, 2.5vw, 32px);
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.linha-decorada{
+   align-items: center;
+   font-size: clamp(12px, 1vw, 20px);
+}
+
+.titulo-ocs{
+  font-size: clamp(22px, 3vw, 35px);
+}
+
+.linha-ocs{
+  font-size: clamp(22px, 3vw, 50px);
+}
+
+.scene{ 
+min-height:100vh; 
+background-image:url("abstractredsky.jpg"); 
+background-size:cover; 
+background-position:center; 
+background-attachment:fixed; 
+display:flex; 
+flex-direction:column;
+justify-content:center; 
+align-items:center; 
+overflow:hidden;
+}
+
+@font-face {
+  font-family: "Modern No.20";
+  src: url("MOD20.ttf");
+}
+
+.pfp {
+  width: 550px;
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+  margin: 20px auto -30px auto;
+}
+
+.bg1{ 
+background-image:url("abstractredsky.jpg"); 
+ padding-bottom: 100px;
+}
+
+.bg2{ 
+background-image:url("redsparks.jpg");
+ margin-top: -150px; 
+}
+
+.bg3{
+ background-image:url("thornswallpaper.jpg"); 
+ margin-top: -150px; 
+} 
+
+.bg4{ 
+background-image:url("P0RC3L4N4 M4DN3SS BACKGROUND.png");  
+  min-height: 250vh;
+ margin-top: -150px;
+ margin-bottom: -150px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.bg5 {
+  background-image: url("wallpaper.jpg");
+margin-top: -150px;
+}
+
+.bg5-final {
+  height: auto;
+  min-height: 180vh;
+  padding-bottom: 100px;
+  justify-content: flex-start;
+  padding-top: 40px;
+}
+
+html, body{
+margin: 0;
+padding: 0;
+height: 100%;
+background: black;
+overflow-x: hidden;
+}
+
+.intro-border{height:30px;width:100%;background:black;}
+
+.about{
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.tagline {
+  font-family: "Modern No.20";
+  font-size: 23px;
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.projetoA{
+  font-family: "Modern No.20";
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+  cursor:pointer;
+  animation: pulso 2.5s ease-in-out infinite;
+}
+
+.projeto:hover {
+  color: #e8c4c4;
+  text-shadow: 0 0 20px rgba(200, 80, 80, 0.9), 0 0 40px rgba(200, 80, 80, 0.5);
+}
+
+@keyframes pulso {
+  0%   { text-shadow: 0 0 8px rgba(255,255,255,0.4); }
+  50%  { text-shadow: 0 0 22px rgba(255,255,255,0.85); }
+  100% { text-shadow: 0 0 8px rgba(255,255,255,0.4); }
+}
+
+.projetoB{
+  font-family: "Modern No.20";
+  font-size: 32px;
+  color: white;
+}
+
+.titulo-porcelana{
+  font-size: clamp(35px, 5vw, 50px);
+}
+
+.tarja {
+  width: 100%;
+  transform: skewY(-5deg);
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  overflow: hidden;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.tarja-aboutme, .tarja-fanart, .tarja-ocs, .tarja-whatido, .tarja-contact {
+  width: 100%;
+}
+
+.tarja-cursor {
+cursor:pointer;
+}
+
+.conteudo{ 
+transform: skewY(5deg);
+ width:70%; 
+max-width:900px; 
+text-align:center;
+margin: 0 auto; 
+padding:50px; 
+color:white; 
+will-change: auto; 
+}
+
+.conteudo-aboutme{
+font-size:18px;
+}
+
+.conteudo-explore {
+  color: inherit;
+  text-decoration: none;
+}
+
+.conteudo-explore:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.welcome{ 
+font-family: "Modern No.20"; 
+font-size:40px; 
+text-align:center; 
+color:white; 
+padding:100px 0; 
+margin-bottom:100px;
+}
+
+.bg1-welcome{
+  height: auto;
+  min-height: 80vh;
+  padding-top: 160px;
+}
+
+.bg1-welcome .tarja {
+  margin-top: 150px;
+}
+
+.bg2-corey{
+  height: auto;
+  min-height: 0;
+  padding-bottom: 70px;
+}
+
+.bg3-veylor{
+  height: auto;
+  min-height: 0;
+  padding-bottom: 70px;
+}
+
+.fanart{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.fanart-img{
+  width: 700px;
+  max-width: 100%;
+  height: auto;
+ margin-top: 80px;
+}
+
+.caption{
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.caption2{
+  margin-top: 10px;
+  margin-bottom:50px;
+  color: white;
+  font-size: 40px;
+}
+
+.separador{
+  width: 200%;
+  background: transparent;
+  text-align: center;
+  padding: 60px 0;
+  font-size: 24px;
+  color: white;
+}
+
+.estrela{
+  width: 100%;
+  background: transparent;
+  text-align: center;
+  font-size: clamp(10px, 2vw, 24px);
+  color: white;
+}
+
+.servicos {
+ padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 60px 0;
+  font-family: "Modern No.20";
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 1px;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.contato-label {
+  font-family: Georgia;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  letter-spacing: 1px;
+}
+
+.contato-email {
+  font-family: "Modern No.20";
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.contato-email:hover {
+  color: #e8c4c4;
+  text-shadow: 0 0 20px rgba(200, 80, 80, 0.9), 0 0 40px rgba(200, 80, 80, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (min-width: 200px) and (max-width: 320px){
+.pfp{
+width:80%;
+margin-bottom:-50px;
+}
+
+.estrela {
+  font-size: clamp(5px, 2vw, 24px);
+}
+
+.linha-decorada{
+   align-items: center;
+   font-size: clamp(12px, 5vw, 25px);
+}
+  .conteudo {
+    width: 90%;
+    padding: 25px;
+    margin: 0 auto;
+  }
+  
+.conteudo-aboutme{
+font-size:15px;
+}
+
+.conteudo-explore{
+   font-size: clamp(18px, 2vw, 24px);
+}
+
+.tarja{
+   margin-top: 20px;
+   margin-bottom: -120px;
+}
+
+.tarja-aboutme{
+margin-left:10px;
+margin-right:20px;
+align-items:center;
+font-size:15px;
+width:100%;
+}
+
+.tarja-ocs, .tarja-fanart, .tarja-whatido{
+   align-items: center;   
+   margin-left:10px;
+   margin-right:10px;
+   font-size: 16px;
+}
+
+.tarja-contact{
+   align-items: center;   
+   margin-left:10px;
+   margin-right:10px;
+   margin-top: -60px;
+   margin-bottom: -60px;
+}
+
+.fanart{
+   margin-top: -20px;
+}
+
+.fanart-veylor{
+width:100%;
+margin-top:100px;
+}
+
+h2, .welcome{
+   font-size: 20px;
+}
+
+.projetoA{
+   font-size: clamp(16px, 2vw, 24px);
+}
+
+.titulo-porcelana{
+  font-size: clamp(25px, 3vw, 35px);
+  align-items: center;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+  
+.caption, .caption2{
+font-size:12px;
+}
+  .tagline {
+    font-size: 15px;
+  }
+
+  .servicos{
+   font-size: clamp(18px, 2vw, 24px);
+    
+  }
+  .contato-email {
+    margin-top: 10px;
+    font-size: clamp(16px, 2vw, 24px);
+  }
+
+  .bg2, .bg3, .bg5 {
+    margin-top: -60px;
+  }
+
+  .bg4 {
+    margin-top: -60px;
+    margin-bottom: -60px;
+    min-height: 130vh;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+  .bg5-final {
+    min-height: auto;
+  }
+
+  .scene {
+    background-attachment: scroll;
+  }
+
+  .fanart-img {
+    width: 100%;
+  }
+
+  .titulo-ocs{
+    font-size: clamp(16px, 2vw, 20px);
+    margin-right:-25px;
+    margin-left:-25px;
+  }
+
+  .linha-ocs{
+    font-size: clamp(15px, 2vw, 20px); 
+  }
+}
+
+@media (min-width: 321px) and (max-width: 767px){
+
+.pfp{
+width:80%;
+margin-bottom:-50px;
+}
+
+.estrela {
+  font-size: 10px;
+}
+
+.linha-decorada{
+   align-items: center;
+   font-size: clamp(30px, 8vw, 60px);
+   
+}
+  .conteudo {
+    width: 100%;
+    padding: 30px;
+    margin: 0 auto;
+  }
+
+.conteudo-aboutme{
+font-size:25px;
+}
+
+.conteudo-explore{
+   font-size: 21px;
+}
+
+.tarja{
+   margin-top: 20px;
+   margin-bottom: -120px;
+}
+
+.tarja-aboutme{
+margin-left:10px;
+margin-right:20px;
+font-size: clamp(20px, 1.5vw, 25px);
+}
+
+.tarja-ocs, .tarja-fanart, .tarja-whatido{
+   align-items: center;   
+   margin-left:10px;
+   margin-right:10px;
+}
+
+.tarja-contact{
+   align-items: center;   
+   margin-left:10px;
+   margin-right:10px;
+   margin-top: -60px;
+   margin-bottom: -60px;
+}
+
+.fanart{
+   margin-top: -20px;
+}
+
+.fanart-veylor{
+width:100%;
+margin-top:100px;
+}
+
+  h2, .welcome, .caption2 {
+    font-size: clamp(15px, 10vw, 33px);
+  }
+
+.projetoA{
+   font-size: clamp(10px, 6vw, 26px);
+}
+  
+.titulo-porcelana{
+  font-size: clamp(40px, 5vw, 45px);
+  align-items: center;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.caption2{
+font-size:30px;
+}
+  .tagline {
+    font-size: 18px;
+  }
+
+  .contato-email {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+
+  .bg1{
+    overflow:visible;
+  }
+  
+  .bg2, .bg3, .bg5 {
+    margin-top: -60px;
+    overflow:visible;
+  }
+
+  .bg4 {
+    margin-top: -60px;
+    margin-bottom: -60px;
+    min-height: 180vh;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+  .bg5-final {
+    min-height: auto;
+  }
+
+  .titulo-ocs{
+  font-size: clamp(20px, 1vw, 50px);
+}
+
+.linha-ocs{
+  font-size: clamp(22px, 3vw, 50px);
+}
+  
+  .scene {
+    background-attachment: scroll;
+  }
+
+  .fanart-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 819px){
+
+.pfp{
+  width:80%;
+  max-width:550px;
+  margin-bottom:-50px;
+}
+
+.linha-decorada{
+   align-items: center;
+  font-size: clamp(10px, 1vw, 20px);
+}
+
+  .estrela {
+  font-size: 15px;
+}
+  
+.conteudo {
+  width: 80%;
+  max-width:500px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.conteudo-aboutme{
+  font-size:19px;
+}
+
+.conteudo-explore{
+   font-size: 22px;
+}
+
+.tarja{
+   margin-top: 20px;
+   margin-bottom: -120px;
+   width:100%;
+}
+
+.tarja-aboutme{
+  width:100%;
+  padding-left:10px;
+  padding-right:20px;
+}
+
+  .titulo-porcelana{
+    font-size: clamp(30px, 5vw, 40px);
+  }
+  
+.fanart{
+   width:80%;
+}
+
+.fanart-veylor{
+   width:90%;
+   margin-top:88px;
+}
+
+.tarja-whatido{
+   align-items: center;   
+}
+
+    .bg1{
+    overflow:visible;
+  }
+  
+.bg2, .bg3, .bg5 {
+  margin-top: -60px;
+  overflow:visible;
+}
+
+.bg4 {
+  margin-top: -60px;
+  margin-bottom: -60px;
+  min-height: 200vh;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.bg5-final {
+  min-height: auto;
+}
+
+.tarja-contact{
+   align-items: center;   
+   margin-bottom: -60px;
+}
+
+.contato-email {
+  margin-top: 20px;
+  font-size: 24px;
+}
+}
+@media (min-width: 820px) and (max-width:1024px){
+.pfp{
+  width:80%;
+  max-width:550px;
+  margin-bottom:-50px;
+}
+
+.linha-decorada{
+   align-items: center;
+   font-size: clamp(10px, 1vw, 25px);
+}
+
+.conteudo {
+  width: 80%;
+  max-width:500px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.conteudo-aboutme{
+  font-size:19px;
+}
+
+.conteudo-explore{
+   font-size: 22px;
+}
+
+.tarja{
+   margin-top: 20px;
+   margin-bottom: -120px;
+   width:100%;
+}
+
+.tarja-aboutme{
+  width:100%;
+  padding-left:10px;
+  padding-right:20px;
+}
+
+  .titulo-porcelana{
+    font-size: clamp(30px, 5vw, 40px);
+  }
+.fanart{
+   width:80%;
+}
+
+.fanart-veylor{
+   width:70%;
+   margin-top:88px;
+}
+
+.tarja-whatido{
+   align-items: center;   
+}
+  .bg1{
+  overflow:visible;
+}
+
+.bg2, .bg3, .bg5 {
+  margin-top: -60px;
+  overflow:visible;
+}
+
+.bg4 {
+  margin-top: -60px;
+  margin-bottom: -60px;
+  min-height: 250vh;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.bg5-final {
+  min-height: auto;
+}
+
+.tarja-contact{
+   align-items: center;   
+   margin-bottom: -60px;
+}
+
+.contato-email {
+  margin-top: 20px;
+  font-size: 24px;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1180px){
+
+.pfp{
+  width:70%;
+  max-width:550px;
+  margin-bottom:-30px;
+}
+
+.estrela {
+  font-size: 18px;
+}
+
+.linha-decorada{
+   align-items: center;
+   font-size: clamp(16px, 1vw, 24px);
+}
+
+.conteudo {
+  width: 75%;
+  max-width:800px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.conteudo-aboutme{
+  font-size:18px;
+}
+
+.conteudo-explore{
+   font-size: 24px;
+}
+
+.tarja{
+   margin-top: 20px;
+   margin-bottom: -120px;
+   overflow:visible;
+}
+
+.tarja-aboutme{
+  width:100%;
+  padding-left:10px;
+  padding-right:20px;
+}
+
+.tarja-ocs, .tarja-fanart, .tarja-whatido{
+   align-items: center;   
+   padding-left:10px;
+   padding-right:10px;
+   margin-bottom:10px;
+}
+
+.tarja-contact{
+   align-items: center;   
+   padding-left:10px;
+   padding-right:10px;
+   margin-top: -60px;
+   margin-bottom: -60px;
+}
+
+.fanart{
+   margin-top:-20px;
+   width:80%;
+}
+
+.fanart-veylor{
+  width:100%;
+  margin-top:80px;
+}
+  
+.titulo-ocs{
+  font-size: clamp(22px, 2vw, 50px);
+}
+
+.linha-ocs{
+  font-size: clamp(22px, 3vw, 50px);
+}
+  
+  h2, .welcome, .caption2 {
+    font-size: 30px;
+  }
+
+.projetoA{
+   font-size: 36px;
+}
+
+.titulo-porcelana{
+  font-size: clamp(30px, 5vw, 40px);
+}
+
+.caption2{
+  font-size:40px;
+}
+  .tagline {
+    font-size: 22px;
+  }
+
+  .contato-email {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+
+  .bg1{
+   overflow:visible; 
+  }
+  
+  .bg1-welcome{
+   min-height:120vh;
+  }
+  
+  .bg2, .bg3, .bg5 {
+    margin-top: -60px;
+    overflow:visible;
+  }
+
+  .bg4 {
+    margin-top: -60px;
+    margin-bottom: -60px;
+    min-height: 250vh;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+  .bg5-final {
+    min-height: auto;
+  }
+
+  .fanart-img {
+    width: 80%;
+  }
+
+  .fanart-veylor{
+    width:70%;
+  }
+}
+
+@media (min-width: 1680px){
+
+.pfp{
+  width:40%;
+  margin-bottom:-90px;
+}
+
+.estrela {
+  font-size: clamp(18px, 1.1vw, 24px);
+}
+
+.linha-decorada{
+   align-items: center;
+   font-size: clamp(16px, 1vw, 40px);
+}
+
+.conteudo {
+  width: 50%;
+  padding: 25px;
+  margin: 0 auto;
+ max-width: clamp(900px, 45vw, 1400px);
+}
+
+.conteudo-aboutme{
+  font-size: clamp(28px, 1.8vw, 50px);
+}
+
+.tarja{
+  width: 100%;
+  transform: skewY(-5deg);
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: clamp(150px, 8vw, 300px) 0;
+  overflow:hidden;
+  margin-left: -5px;
+  margin-right: -5px;
+  position: relative;
+  z-index: 2;
+}
+
+.tarja-aboutme{
+  width:110%;
+  padding-left:10px;
+  padding-right:20px;
+  font-size: clamp(30px, 3vw, 50px);
+  margin-bottom: 120px;
+}
+
+.bg1-welcome{
+  height: auto;
+  min-height: 80vh;
+  padding-top: 180px;
+}
+
+.welcome{
+margin-bottom: 200px;
+margin-top: 200px;
+font-size: clamp(48px, 8vw, 85px);
+}
+
+.tarja-ocs, .tarja-fanart{
+   align-items: center;   
+   padding-left:10px;
+   padding-right:10px;
+   margin-bottom:10px;
+   font-size: clamp(24px, 8vw, 40px); 
+   width:100%;
+}
+
+.tarja-whatido{
+  align-items: center;
+  font-size: clamp(24px, 1.5vw, 34px);
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.tarja-contact {
+  align-items: center;
+  font-size: clamp(24px, 1.5vw, 34px);
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.fanart{
+   margin-top:30px;
+   width:50%;
+}
+
+.fanart-veylor{
+  width:90%;
+  margin-top:80px;
+}
+
+.caption{
+font-size: clamp(24px, 1.5vw, 45px);
+}
+
+.titulo-ocs{
+  font-size: clamp(22px, 2vw, 50px);
+}
+
+.linha-ocs{
+  font-size: clamp(22px, 3vw, 50px);
+}
+
+.conteudo-explore{
+font-size: clamp(32px, 2vw, 60px);
+}
+
+.projetoA{
+   font-size: clamp(40px, 2.5vw, 90px);
+}
+
+.projetoB{
+   font-size: clamp(44px, 2.8vw, 100px);
+   align-items: center;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+  .conteudo{
+    width: 90%;
+    padding: 25px;
+    margin: 0 auto;
+    margin-bottom:80px;
+    margin-top:30px;
+  }
+
+  .titulo-porcelana{
+   font-size: clamp(48px, 5vw, 90px); 
+  }
+  
+.caption2{
+  font-size: clamp(48px, 3vw, 90px);
+}
+
+  .tagline {
+    font-size: clamp(24px, 1.5vw, 50px);
+  }
+
+  .contato-email {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+
+.bg1{
+   overflow:visible;
+}
+
+ .bg2-corey{
+   margin-top: -300px;
+   margin-bottom: -50px;
+   overflow:visible;
+}
+
+.bg3{
+    margin-top: clamp(-260px, -12vw, -350px);
+    margin-bottom: clamp(-100px, -4vw, -70px);
+}
+
+.bg3-veylor {
+   overflow:visible;
+}
+
+  .bg4 {
+    margin-top: clamp(-240px, -11vw, -180px);
+    margin-bottom: clamp(-150px, -6vw, -100px);
+    min-height: 200vh;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+.servicos{
+font-size: clamp(32px, 2vw, 60px);
+}
+
+.contato-label{
+font-size: clamp(32px, 2vw, 50px);
+}
+
+.contato-email{
+font-size: clamp(32px, 2vw, 80px);
+}
+
+  .bg5-final {
+    margin-top: -100px;
+    min-height: auto;
+  }
+
+  .fanart-img {
+    width: 100%;
+    margin-top: 140px;
+  }
+}

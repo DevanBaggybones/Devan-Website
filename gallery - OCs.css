@@ -1,0 +1,223 @@
+.bg1{
+background-image:url("abstractredsky.jpg"); 
+}
+
+.tarja-reta {
+  transform: none;
+  margin-bottom:100px;
+}
+.tarja-reta .conteudo {
+  transform: none;
+}
+
+body > .tarja:last-of-type .conteudo {
+  transform: none;
+}
+
+.gallery-hero {
+  min-height: 30vh;
+}
+
+.gallery-section {
+  min-height: 80vh;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 20px;
+  margin-top: 100px;
+  justify-content: flex-start;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.carousel-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-display img {
+  width: 600px;
+  max-width: 80vw;
+  height: auto;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-display img:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+
+.carousel-display .caption {
+  margin-top: 14px;
+  font-family: Georgia;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 1px;
+}
+
+.carousel-btn {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  font-size: 28px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, color 0.3s ease;
+  flex-shrink: 0;
+}
+
+.carousel-btn:hover {
+  border-color: #e8c4c4;
+  color: #e8c4c4;
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.dot.ativo {
+  background: white;
+}
+
+.gallery-hint {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.35);
+  letter-spacing: 1px;
+  margin-top: 4px;
+ margin-bottom: 100px;
+}
+
+.lightbox {
+  display: none;              
+  position: fixed;
+  inset: 0;                   
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  cursor: zoom-out;
+}
+
+.lightbox.ativo {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90vw;
+  max-height: 80vh;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.8);
+}
+
+.lightbox-caption {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Georgia;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.lightbox-close:hover {
+  color: #e8c4c4;
+}
+
+@media (max-width: 768px) {
+
+  .tarja-reta{
+    margin-bottom: 40px;
+  }
+
+  .gallery-hero{
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  .carousel{
+    gap: 10px;
+  }
+
+  .carousel-display img{
+    width: 100%;
+    max-width: 85vw;
+  }
+
+  .carousel-btn{
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+.estrela{
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+  .carousel-display .caption{
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .gallery-hint{
+    font-size: 12px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .lightbox-close{
+    right: 15px;
+    top: 15px;
+    font-size: 24px;
+  }
+
+}
+
+@media (min-width: 200px) and (max-width: 320px){
+.carousel-display .caption{
+    font-size: 12px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .carousel-btn{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+    .estrela{
+    font-size: clamp(7px, 1vw, 12px);
+    margin-right:30px;
+  }  
+
+  .lightbox-caption{
+    font-size:12px;
+  }
+}
